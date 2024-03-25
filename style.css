@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+.navbar{
+    height: 60px;
+    width: 100vw;
+    background-color: #1f1111;
+}
+#amazonlogo{
+    margin: 8px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        justify-content: space-evenly;
+
+    
+}
+.location{
+    display: flex;
+    color: white;
+    position: relative;
+    /* top: 20%; */
+    border: 1.5px solid transparent;}
+
+
+.location img{
+    position: relative;
+    top: 21%;
+    margin: 2px;
+}
+.innerlocation{
+    display: flex;
+    flex-direction: column;
+}
+.innerlocation p{
+    font-size: 0.8rem;
+}
+.innerlocation h5{
+    font-size: 1rem;
+}
+.searcharea{
+    display: flex;
+    height: 60px;
+    width: 480px;
+    padding: 10px;
+}
+.selector1{
+    height: 40px;
+    width: 60px;
+}
+#selector{
+    height: 100%;
+    width: 100%;
+    font-size: 1rem;
+    color: black;
+    border: none;
+    background-color: rgb(187, 187, 186);
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+}
+.magnifier{
+    height: 40px;
+    width: 50px;
+    background-color:rgb(201, 149, 52);
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.textbox{
+    width: 100%;
+    height: 40px;
+}
+#textarea{
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 1rem;
+    padding-left: 2px;
+}
+.locationindia{
+    height: 40px;
+    width: 55px;
+    margin  :10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.flag{
+    height: 21px;
+    width:16px;
+    margin-right: 5px;
+    
+}
+#indianame{
+    font-size: 1rem;
+    font-weight: bolder;
+    border: none;
+    background-color: #1f1111;
+    color: white;
+}
+.signindetails{
+    height: 40px;
+    width: 130px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    /* align-content: space-around; */
+    /* align-content: center; */
+    align-items: center;
+    justify-content: center;
+    
+}
+.hellotext{
+    height: 12px;
+    width: 70px;
+    font-size: 0.75rem;
+    color: white;
+    align-self: flex-start;
+    font-weight:lighter;
+}
+#acclists{
+    height: 13px;
+    width: 135px;
+    border: none;
+    text-align: left;
+    align-self: self-start;
+    font-size: 0.85rem;
+    font-weight: bold;
+    background-color: #1f1111;
+    color: white;
+    }
+.retandorder{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    width: 76px;
+    gap: 1px;
+    height: 60px;
+}
+.return{
+    font-size: 0.77rem;
+    height: 13px;
+    width: 63px;
+    font-weight: lighter;
+}
+.order{
+    width: 68px;
+    height: 16px;
+    font-size: 1.15rem;
+    font-weight: bolder;
+
+}
+.cart{
+    height: 50px;
+    width: 59px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.cartimage{
+    height: 20px;
+    width: 45px;
+    font-size: 2rem;
+    position: relative;
+}
+.cartimage h1{
+    position: absolute;
+    font-size: 1rem;
+    position: relative;
+    top: -34px;
+    left: 16px;
+    color: rgb(4, 4, 4);
+    font-weight: bolder;
+}
+.navbar2{
+    height: 40px;
+    width: 100vw;
+    background-color:#181437;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.mainmenu{
+    height: 40px;
+    width: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    gap: 4px;
+    border: 1.5px solid transparent;
+}
+.baricon{
+    height: 20px;
+    width: 17px;
+    color: white;
+    font-size: 1.1rem;
+}
+.menucontent{
+    height: 20px;
+    width: 23px;
+    font-size: 0.9rem;
+    color: white;
+}
+
+.deals{
+    height: 40px;
+    width: 102px;
+    color:white;
+    border: 1.5px solid transparent;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 100;
+
+    
+}
+.customerservice{
+    height: 40px;
+    width: 130px;
+    color:white;
+    border: 1.5px solid transparent;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+.register{
+    height: 40px;
+    width: 70px;
+    color:white;
+    border: 1.5px solid transparent;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+.gift{
+    height: 40px;
+    width: 81px;
+    color:white;
+    border: 1.5px solid transparent;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+.sell{
+    height: 40px;
+    width: 41px;
+    color:white;
+    border: 1.5px solid transparent;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
