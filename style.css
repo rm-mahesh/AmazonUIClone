@@ -303,3 +303,9 @@
     margin-right: 5px;
 
 }
+.section1{
+    background-image: url(homemainimagebg.jpg);
+    height: 400px;
+    
+    background-size: 100% 100%;
+}
