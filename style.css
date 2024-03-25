@@ -192,6 +192,7 @@
     background-color:#181437;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     gap: 10px;
 }
 .mainmenu{
@@ -281,4 +282,24 @@
 }
 .border:hover{
     border: 1.5px solid white;
+}
+.innernavbar1{
+    display: flex;
+    gap: 10px;
+    
+
+}
+.shopdeals{
+    height: 40px;
+    width: auto;
+    color:white;
+    border: 1.5px solid transparent;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 100;
+    margin-right: 5px;
+
 }
